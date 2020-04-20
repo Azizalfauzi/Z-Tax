@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/infoKendaraanFragment"
+        android:icon="@drawable/ic_info_rev"
+        android:title="@string/t_info_kendaraan"
+        app:showAsAction="ifRoom" />
+</menu>

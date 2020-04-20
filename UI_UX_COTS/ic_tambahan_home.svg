@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="150" viewBox="0 0 360 150">
+  <g id="ic_tambahan_home" transform="translate(515 23.823)">
+    <path id="ic_tambahan" d="M360,125.158c0,82.3-80.589,149.019-180,149.019S0,207.459,0,125.158C0,123.647,360,124.07,360,125.158Z" transform="translate(-515 -148)" fill="#019fff"/>
+    <g id="ic_home_2" transform="translate(-777 -223)">
+      <g id="Path_1" data-name="Path 1" transform="translate(415 260.3)" fill="none">
+        <path d="M16.042,0H38.958C47.818,0,55,10.322,55,23.054V62.576c0,6.43-13.725,5.33-27.851,5.264C13.778,67.779,0,68.879,0,62.576V23.054C0,10.322,7.182,0,16.042,0Z" stroke="none"/>
+        <path d="M 16.04167175292969 0.9999923706054688 C 12.09368896484375 0.9999923706054688 8.356788635253906 3.245780944824219 5.519340515136719 7.323654174804688 C 4.107589721679688 9.352565765380859 2.997509002685547 11.7209358215332 2.219951629638672 14.36297607421875 C 1.410449981689453 17.1135139465332 1 20.03776550292969 1 23.05448532104492 L 1 62.57646560668945 C 1 63.63530349731445 1.455490112304688 65.14692687988281 5.394001007080078 66.04573059082031 C 8.602668762207031 66.77798461914063 13.15288925170898 66.87892150878906 17.59209060668945 66.87892150878906 C 18.92033004760742 66.87892150878906 20.25273895263672 66.86925506591797 21.66336822509766 66.85901641845703 C 23.06621932983398 66.84883117675781 24.51683044433594 66.83830261230469 25.95425987243652 66.83830261230469 C 26.35359001159668 66.83830261230469 26.75466918945313 66.839111328125 27.15369987487793 66.84095764160156 C 28.91085052490234 66.84913635253906 30.67239952087402 66.87340545654297 32.37596130371094 66.89688110351563 C 34.42337799072266 66.92510223388672 36.35726165771484 66.95175170898438 38.23793792724609 66.95175170898438 C 42.24948120117188 66.95175170898438 46.77413940429688 66.84516143798828 49.91712951660156 66.05461120605469 C 53.57675933837891 65.13410186767578 54 63.62872314453125 54 62.57646560668945 L 54 23.05448532104492 C 54 20.03776550292969 53.58955001831055 17.1135139465332 52.78004837036133 14.36297607421875 C 52.00249099731445 11.7209358215332 50.89241027832031 9.352565765380859 49.48065948486328 7.323654174804688 C 46.64321899414063 3.245780944824219 42.90631866455078 0.9999923706054688 38.95833969116211 0.9999923706054688 L 16.04167175292969 0.9999923706054688 M 16.04167175292969 -7.62939453125e-06 L 38.95833969116211 -7.62939453125e-06 C 47.81790161132813 -7.62939453125e-06 55 10.32184600830078 55 23.05448532104492 L 55 62.57646560668945 C 55 67.27058410644531 47.68352890014648 67.95175170898438 38.23793792724609 67.95175170898438 C 34.74510192871094 67.95175170898438 30.96243286132813 67.85868072509766 27.14904975891113 67.8409423828125 C 26.75159645080566 67.839111328125 26.35205841064453 67.83831024169922 25.95425796508789 67.83831024169922 C 23.12146759033203 67.83831024169922 20.28898239135742 67.87892150878906 17.59209060668945 67.87892150878906 C 7.926670074462891 67.87892150878906 0 67.35772705078125 0 62.57646560668945 L 0 23.05448532104492 C 0 10.32184600830078 7.182098388671875 -7.62939453125e-06 16.04167175292969 -7.62939453125e-06 Z" stroke="none" fill="#fff"/>
+      </g>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="40" height="20" transform="translate(423 250)" fill="#fff"/>
+      <text id="TAX" transform="translate(429 266)" fill="#019fff" font-size="15" font-family="Montserrat-Light, Montserrat" font-weight="300"><tspan x="0" y="0">TAX</tspan></text>
+      <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(419 278)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(419 290)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-2" data-name="Rectangle 4" transform="translate(427 290)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-3" data-name="Rectangle 4" transform="translate(435 290)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-4" data-name="Rectangle 4" transform="translate(443 290)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-5" data-name="Rectangle 4" transform="translate(451 290)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-6" data-name="Rectangle 4" transform="translate(459 290)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-7" data-name="Rectangle 4" transform="translate(419 300)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-8" data-name="Rectangle 4" transform="translate(427 300)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-9" data-name="Rectangle 4" transform="translate(435 300)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-10" data-name="Rectangle 4" transform="translate(443 300)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-11" data-name="Rectangle 4" transform="translate(451 300)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-12" data-name="Rectangle 4" transform="translate(459 300)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-13" data-name="Rectangle 4" transform="translate(419 310)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-14" data-name="Rectangle 4" transform="translate(427 310)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-15" data-name="Rectangle 4" transform="translate(435 310)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-16" data-name="Rectangle 4" transform="translate(443 310)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-17" data-name="Rectangle 4" transform="translate(451 310)" fill="#019fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <g id="Rectangle_4-18" data-name="Rectangle 4" transform="translate(459 310)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="6" fill="none"/>
+      </g>
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="33" height="7" transform="translate(429 278)" fill="#fff"/>
+    </g>
+    <text id="Hitung_Pajak_Yuk" data-name="Hitung Pajak Yuk" transform="translate(-396 12)" fill="#fff" font-size="15" font-family="Montserrat-ExtraLight, Montserrat" font-weight="200"><tspan x="0" y="0">Hitung Pajak Yuk</tspan></text>
+  </g>
+</svg>

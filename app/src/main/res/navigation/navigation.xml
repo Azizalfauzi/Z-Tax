@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="org.d3if0067.hitungpajak.fragment.HomeFragment"
+        android:label="Z-TAX"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_pajakKendaraanBermotorFragment"
+            app:destination="@id/pajakKendaraanBermotorFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_pajakBumiBangunanFragment"
+            app:destination="@id/pajakBumiBangunanFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_pajakPenghasilanFragment"
+            app:destination="@id/pajakPenghasilanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pajakBumiBangunanFragment"
+        android:name="org.d3if0067.hitungpajak.fragment.PajakBumiBangunanFragment"
+        android:label="Pajak Bumi dan Bangunan"
+        tools:layout="@layout/fragment_pajak_bumi_bangunan">
+        <action
+            android:id="@+id/action_pajakBumiBangunanFragment_to_hasilPajakBumiBangunanFragment"
+            app:destination="@id/hasilPajakBumiBangunanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pajakPenghasilanFragment"
+        android:name="org.d3if0067.hitungpajak.fragment.PajakPenghasilanFragment"
+        android:label="Pajak Penghasilan "
+        tools:layout="@layout/fragment_pajak_penghasilan">
+        <action
+            android:id="@+id/action_pajakPenghasilanFragment_to_hasilPajakPenghasilanFragment"
+            app:destination="@id/hasilPajakPenghasilanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pajakKendaraanBermotorFragment"
+        android:name="org.d3if0067.hitungpajak.fragment.PajakKendaraanBermotorFragment"
+        android:label="Pajak Kendaraan Bermotor "
+        tools:layout="@layout/fragment_pajak_kendaraan_bermotor">
+        <action
+            android:id="@+id/action_pajakKendaraanBermotorFragment_to_hasilPajakKendaraanBermotorFragment"
+            app:destination="@id/hasilPajakKendaraanBermotorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hasilPajakBumiBangunanFragment"
+        android:name="org.d3if0067.hitungpajak.fragment.hasilpajak.HasilPajakBumiBangunanFragment"
+        android:label="Pajak Bumi Bangunan"
+        tools:layout="@layout/fragment_hasil_pajak_bumi_bangunan">
+        <action
+            android:id="@+id/action_hasilPajakBumiBangunanFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hasilPajakKendaraanBermotorFragment"
+        android:name="org.d3if0067.hitungpajak.fragment.hasilpajak.HasilPajakKendaraanBermotorFragment"
+        android:label="Pajak Kendaraan"
+        tools:layout="@layout/fragment_hasil_pajak_kendaraan_bermotor">
+        <action
+            android:id="@+id/action_hasilPajakKendaraanBermotorFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hasilPajakPenghasilanFragment"
+        android:name="org.d3if0067.hitungpajak.fragment.hasilpajak.HasilPajakPenghasilanFragment"
+        android:label="Pajak Penghasilan"
+        tools:layout="@layout/fragment_hasil_pajak_penghasilan">
+        <action
+            android:id="@+id/action_hasilPajakPenghasilanFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoBumiBangunanFragment"
+        android:name="org.d3if0067.hitungpajak.fragment.infopajak.InfoBumiBangunanFragment"
+        android:label="Info Pajak Bumi Bangunan"
+        tools:layout="@layout/fragment_info_bumi_bangunan" />
+    <fragment
+        android:id="@+id/infoKendaraanFragment"
+        android:name="org.d3if0067.hitungpajak.fragment.infopajak.InfoKendaraanFragment"
+        android:label="Info Pajak Kendaraan"
+        tools:layout="@layout/fragment_info_kendaraan" />
+    <fragment
+        android:id="@+id/infoPenghasilanFragment"
+        android:name="org.d3if0067.hitungpajak.fragment.infopajak.InfoPenghasilanFragment"
+        android:label="Info Pajak Penghasilan"
+        tools:layout="@layout/fragment_info_penghasilan" />
+</navigation>
