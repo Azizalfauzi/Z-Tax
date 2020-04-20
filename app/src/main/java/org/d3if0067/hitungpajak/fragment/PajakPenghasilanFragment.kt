@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
 
@@ -28,5 +30,30 @@ class PajakPenghasilanFragment : Fragment() {
         }
         return binding.root
     }
+//    private fun optionSelected2() {
+//        val option = binding.spinnerHasilPenghasilan
+//        val result = binding.textView70
+//
+//        val options =
+//            arrayOf("-", "1", "2", "3")
+//
+////        option.adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, options)
+//        option.adapter = ArrayAdapter.createFromResource(context,R.layout.,options)
+//
+//        option.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+//            override fun onNothingSelected(parent: AdapterView<*>?) {
+//                result.text = "Tolong Pilih salah satu"
+//            }
+//
+//            override fun onItemSelected(
+//                parent: AdapterView<*>?,
+//                view: View?,
+//                position: Int,
+//                id: Long
+//            ) {
+//                result.text = options.get(position)
+//            }
+//        }
+//    }
 
 }

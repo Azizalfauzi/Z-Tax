@@ -88,4 +88,5 @@
     <string name="t_info_kendaraan" />
     <string name="t_info_bumibangunan" />
     <string name="t_judul_splash">Z-TAX</string>
+    <string name="t_copyright">Z-Tax 2020 copyright</string>
 </resources>
