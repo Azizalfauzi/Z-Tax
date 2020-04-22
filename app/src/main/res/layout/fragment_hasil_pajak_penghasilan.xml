@@ -14,11 +14,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:text="@string/t_penghasilan1"
             android:textColor="@android:color/darker_gray"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
         <TextView
             android:id="@+id/textView15"
@@ -32,15 +32,15 @@
             app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="@string/t_penghasilan3"
             android:textColor="@android:color/darker_gray"
-            app:layout_constraintBottom_toBottomOf="@+id/textView18"
-            app:layout_constraintStart_toEndOf="@+id/textView18"
-            app:layout_constraintTop_toTopOf="@+id/textView18" />
+            app:layout_constraintBottom_toBottomOf="@+id/tv_masa_penghasilan"
+            app:layout_constraintStart_toEndOf="@+id/tv_masa_penghasilan"
+            app:layout_constraintTop_toTopOf="@+id/tv_masa_penghasilan" />
 
         <TextView
             android:id="@+id/textView17"
@@ -51,10 +51,10 @@
             android:text="@string/t_penghasilan4"
             android:textColor="@android:color/darker_gray"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_hitung_gaji" />
 
         <TextView
-            android:id="@+id/textView18"
+            android:id="@+id/tv_hitung_gaji"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -65,7 +65,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
         <TextView
-            android:id="@+id/textView19"
+            android:id="@+id/tv_hasil_gaji"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -73,7 +73,7 @@
             android:text="@string/tv_gaji"
             android:textColor="@color/color_blue"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
         <TextView
             android:id="@+id/textView20"
@@ -82,12 +82,12 @@
             android:layout_marginEnd="8dp"
             android:text="@string/t_penghasilan5"
             android:textColor="@color/color_blue"
-            app:layout_constraintBottom_toBottomOf="@+id/textView19"
-            app:layout_constraintEnd_toStartOf="@+id/textView19"
-            app:layout_constraintTop_toTopOf="@+id/textView19" />
+            app:layout_constraintBottom_toBottomOf="@+id/tv_hasil_gaji"
+            app:layout_constraintEnd_toStartOf="@+id/tv_hasil_gaji"
+            app:layout_constraintTop_toTopOf="@+id/tv_hasil_gaji" />
 
         <TextView
-            android:id="@+id/textView21"
+            android:id="@+id/tv_total_penghasilan_kotor2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -98,15 +98,15 @@
             app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
         <TextView
-            android:id="@+id/textView22"
+            android:id="@+id/tv_ptkp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="@string/t_penghasilan6"
             android:textColor="@android:color/darker_gray"
-            app:layout_constraintBottom_toBottomOf="@+id/textView21"
-            app:layout_constraintStart_toEndOf="@+id/textView21"
-            app:layout_constraintTop_toTopOf="@+id/textView21" />
+            app:layout_constraintBottom_toBottomOf="@+id/tv_status"
+            app:layout_constraintStart_toEndOf="@+id/tv_status"
+            app:layout_constraintTop_toTopOf="@+id/tv_status" />
 
         <TextView
             android:id="@+id/textView23"
@@ -117,10 +117,10 @@
             android:text="@string/t_penghasilan7"
             android:textColor="@android:color/darker_gray"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_total_penghasilan_kotor2" />
 
         <TextView
-            android:id="@+id/textView24"
+            android:id="@+id/tv_total_penghasilan_bersih2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -137,19 +137,19 @@
             android:layout_marginStart="8dp"
             android:text="@string/t_penghasilan8"
             android:textColor="@android:color/darker_gray"
-            app:layout_constraintBottom_toBottomOf="@+id/textView24"
-            app:layout_constraintStart_toEndOf="@+id/textView24"
-            app:layout_constraintTop_toTopOf="@+id/textView24" />
+            app:layout_constraintBottom_toBottomOf="@+id/tv_total_penghasilan_bersih2"
+            app:layout_constraintStart_toEndOf="@+id/tv_total_penghasilan_bersih2"
+            app:layout_constraintTop_toTopOf="@+id/tv_total_penghasilan_bersih2" />
 
         <TextView
-            android:id="@+id/textView26"
+            android:id="@+id/tv_total_penghasilan_kotor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="24dp"
             android:text="@string/tv_gaji2"
             android:textColor="@color/color_blue"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView16" />
+            app:layout_constraintTop_toTopOf="@+id/textview" />
 
         <TextView
             android:id="@+id/textView27"
@@ -158,19 +158,19 @@
             android:layout_marginEnd="8dp"
             android:text="@string/t_penghasilan5"
             android:textColor="@color/color_blue"
-            app:layout_constraintBottom_toBottomOf="@+id/textView26"
-            app:layout_constraintEnd_toStartOf="@+id/textView26"
-            app:layout_constraintTop_toTopOf="@+id/textView26" />
+            app:layout_constraintBottom_toBottomOf="@+id/tv_total_penghasilan_kotor"
+            app:layout_constraintEnd_toStartOf="@+id/tv_total_penghasilan_kotor"
+            app:layout_constraintTop_toTopOf="@+id/tv_total_penghasilan_kotor" />
 
         <TextView
-            android:id="@+id/textView28"
+            android:id="@+id/tv_total_penghasilan_bersih"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="32dp"
             android:text="@string/tv_gaji3"
             android:textColor="@color/color_blue"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView22" />
+            app:layout_constraintTop_toTopOf="@+id/tv_ptkp" />
 
         <TextView
             android:id="@+id/textView29"
@@ -179,12 +179,12 @@
             android:layout_marginEnd="8dp"
             android:text="@string/t_penghasilan5"
             android:textColor="@color/color_blue"
-            app:layout_constraintBottom_toBottomOf="@+id/textView28"
-            app:layout_constraintEnd_toStartOf="@+id/textView28"
-            app:layout_constraintTop_toTopOf="@+id/textView28" />
+            app:layout_constraintBottom_toBottomOf="@+id/tv_total_penghasilan_bersih"
+            app:layout_constraintEnd_toStartOf="@+id/tv_total_penghasilan_bersih"
+            app:layout_constraintTop_toTopOf="@+id/tv_total_penghasilan_bersih" />
 
         <TextView
-            android:id="@+id/textView30"
+            android:id="@+id/tv_hasil_pbb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="44dp"
@@ -200,9 +200,9 @@
             android:layout_marginEnd="8dp"
             android:text="@string/t_penghasilan5"
             android:textColor="@color/color_blue"
-            app:layout_constraintBottom_toBottomOf="@+id/textView30"
-            app:layout_constraintEnd_toStartOf="@+id/textView30"
-            app:layout_constraintTop_toTopOf="@+id/textView30" />
+            app:layout_constraintBottom_toBottomOf="@+id/tv_hasil_pbb"
+            app:layout_constraintEnd_toStartOf="@+id/tv_hasil_pbb"
+            app:layout_constraintTop_toTopOf="@+id/tv_hasil_pbb" />
 
         <TextView
             android:id="@+id/textView32"
@@ -211,8 +211,121 @@
             android:layout_marginTop="8dp"
             android:text="@string/t_penghasilan9"
             android:textColor="@color/color_blue"
-            app:layout_constraintEnd_toEndOf="@+id/textView30"
-            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+            app:layout_constraintEnd_toEndOf="@+id/tv_hasil_pbb"
+            app:layout_constraintTop_toBottomOf="@+id/tv_hasil_pbb" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView32"
+            app:srcCompat="@drawable/ic_splashscreen" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/t_copyright"
+            android:textColor="@color/color_blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/t_penghasilan10"
+            android:textColor="@color/color_blue"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/t_penghasilan11"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintEnd_toEndOf="@+id/textView16"
+            app:layout_constraintStart_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/t_bangunan2"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_hitung_gaji"
+            app:layout_constraintStart_toEndOf="@+id/tv_hitung_gaji"
+            app:layout_constraintTop_toTopOf="@+id/tv_hitung_gaji" />
+
+        <TextView
+            android:id="@+id/tv_masa_penghasilan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/t_penghasilan12"
+            android:textColor="@color/color_blue"
+            app:layout_constraintBottom_toBottomOf="@+id/textView19"
+            app:layout_constraintStart_toEndOf="@+id/textView19"
+            app:layout_constraintTop_toTopOf="@+id/textView19" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/t_penghasilan13"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_total_penghasilan_kotor2"
+            app:layout_constraintStart_toEndOf="@+id/tv_total_penghasilan_kotor2"
+            app:layout_constraintTop_toTopOf="@+id/tv_total_penghasilan_kotor2" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/t_penghasilan14"
+            android:textColor="@color/color_blue"
+            app:layout_constraintBottom_toBottomOf="@+id/textView24"
+            app:layout_constraintStart_toEndOf="@+id/textView24"
+            app:layout_constraintTop_toTopOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/tv_masa_penghasilan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/tv_penghasilan16"
+            android:textColor="@color/color_blue"
+            app:layout_constraintBottom_toBottomOf="@+id/textView32"
+            app:layout_constraintEnd_toStartOf="@+id/textView32"
+            app:layout_constraintTop_toTopOf="@+id/textView32" />
+
+        <TextView
+            android:id="@+id/tv_tunggakan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="8sp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="@+id/textView32"
+            app:layout_constraintStart_toStartOf="@+id/tv_masa_penghasilan2"
+            app:layout_constraintTop_toBottomOf="@+id/textView32" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

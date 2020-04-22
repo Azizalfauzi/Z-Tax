@@ -21,17 +21,17 @@
     <string name="t_kendaraan2">Urutan Kepemilikan Kendaraan :</string>
     <string name="t_penghasilan1">Gaji :</string>
     <string name="t_penghasilan2">Penghasilan Kotor Anda :</string>
-    <string name="t_penghasilan3">* 12(Bulan) :</string>
+    <string name="t_penghasilan3">(Bulan) :</string>
     <string name="tv_gaji">5.000.000</string>
     <string name="t_penghasilan4">Penghasilan Bersih Anda :</string>
     <string name="t_penghasilan5">Rp.</string>
     <string name="tv_gaji2">60.000.000</string>
-    <string name="t_penghasilan6">-PTKP :</string>
+    <string name="t_penghasilan6">(PTKP) :</string>
     <string name="t_penghasilan7">Pajak Penghasilan Anda :</string>
     <string name="tv_gaji3">6.000.000</string>
     <string name="t_penghasilan8">* 15% :</string>
     <string name="tv_gaji4">900.000</string>
-    <string name="t_penghasilan9">/Tahun</string>
+    <string name="t_penghasilan9">(Bulan)</string>
     <string name="t_info1">Info :</string>
     <string name="t_info2">PTKP (Pajak Tidak Kena Pajak)</string>
     <string name="t_info3">Rp.54.000.000</string>
@@ -65,7 +65,7 @@
     <string name="t_hasil_kendaraan1">Harga Kendaraan :</string>
     <string name="t_hasil_kendaraan2">Pajak Kendaraan Motor :</string>
     <string name="t_hasil_kendaraan0">Kepemilikan Kendaraan :</string>
-    <string name="t_hasil_kendaraan3">Harga Kendaraan * Kepemilikan Kendaraan :</string>
+    <string name="t_hasil_kendaraan3">3000000</string>
     <string name="tv_hasil_kendaraan">450.000</string>
     <string name="tv_harga_kendaraan">30.000.000</string>
     <string name="tv_kepemilikan">1</string>
@@ -89,4 +89,14 @@
     <string name="t_info_bumibangunan" />
     <string name="t_judul_splash">Z-TAX</string>
     <string name="t_copyright">Z-Tax 2020 copyright</string>
+    <string name="t_penghasilan10">Metode Gross</string>
+    <string name="t_penghasilan11">(Gaji Kotor Tanpa Tunjangan Pajak)</string>
+    <string name="t_penghasilan12">1</string>
+    <string name="t_penghasilan13">-</string>
+    <string name="t_penghasilan14">1</string>
+    <string name="tv_penghasilan16">1</string>
+    <string name="t_kendaraan4">1.5</string>
+    <string name="t_kendaraan5">% :</string>
+    <string name="t_tahun">/Tahun</string>
+    <string name="t_bulan">/Bulan</string>
 </resources>
